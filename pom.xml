@@ -94,7 +94,11 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+	    <server>
+		    <id>nexus</id>
+		    <username>admin</username>
+		    <password>admin123</password>
+	    </server>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
